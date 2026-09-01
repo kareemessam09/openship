@@ -1,4 +1,4 @@
-rootProject.name = "Openship-App"
+rootProject.name = "Openship"
 
 pluginManagement {
     repositories {

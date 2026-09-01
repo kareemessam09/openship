@@ -29,9 +29,9 @@ import androidx.compose.ui.unit.sp
 import com.kareemessam.openship.shared.ui.theme.LocalThemeMode
 import com.kareemessam.openship.shared.ui.theme.OpenshipAppTheme
 import com.kareemessam.openship.shared.ui.theme.ThemeMode
-import openship_app.shared.generated.resources.Res
-import openship_app.shared.generated.resources.app_logo
-import openship_app.shared.generated.resources.app_logo_white
+import openship.shared.generated.resources.Res
+import openship.shared.generated.resources.app_logo
+import openship.shared.generated.resources.app_logo_white
 import org.jetbrains.compose.resources.painterResource
 
 @Composable
@@ -50,12 +50,12 @@ fun OpenshipBrandLogo(
     ) {
         Image(
             painter = painterResource(logoResource),
-            contentDescription = "OpenShip Logo",
+            contentDescription = "Openship Logo",
             modifier = Modifier.size(logoSize)
         )
 
         Text(
-            text = "OpenShip",
+            text = "Openship",
             fontWeight = FontWeight.Bold,
             fontSize = titleSize,
             color = colors.textHeading,
